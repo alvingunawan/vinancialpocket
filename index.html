@@ -17,7 +17,7 @@
   <body class="bg-primary text-white tracking-wider">
     <header class="sticky top-0 z-50">
       <nav class="container flex justify-between items-center">
-        <div class="py-5 text-secondary font-bold text-3xl pl-5 md:pl-0">
+        <div class="py-5 text-secondary font-bold text-xl pl-5 md:pl-0 md:text-3xl">
           <a href="#home"> <span class="text-white">Vinancial</span>Pocket. </a>
         </div>
         <div>
@@ -32,7 +32,7 @@
           </ul>
         </div>
         <!-- Mobile Screen -->
-        <div id="hamburger" class="lg:hidden cursor-pointer z-50 text-2xl">
+        <div id="hamburger" class="lg:hidden cursor-pointer z-50 text-xl md:text-2xl">
           <i class="fa-solid fa-bars text-white pr-4 md:pr-0"></i>
         </div>
         <div id="menu" class="hidden bg-dark z-30 h-[100vh] absolute inset-0">
@@ -59,7 +59,7 @@
               <p class="leading-relaxed mb-10 px-5 md:px-0 lg:mb-8">This should be used to tell a story and let your users know a little more about app and it's use. How can benefit them.</p>
               <button class="btn lg:mb-14">Download App</button>
             </div>
-            <div class="md:w-1/2 w-64 h-64 md:mb-28 md:ml-10 md:w-82 md:w-82 lg:ml-20 lg:w-96 lg:h-96">
+            <div class="md:w-1/2 w-64 h-64 md:mb-28 md:ml-10 md:w-82 md:w-82 lg:ml-20 lg:w-96 lg:h-w-96">
               <img src="img/hero4.png" alt="heroimg" />
             </div>
           </div>
@@ -89,7 +89,7 @@
               <p class="leadomg-relaxed">We use an application designed a testing gnose to keep away</p>
             </div>
             <!-- Card No. 3 -->
-            <div class="border-2 border-solid border-gray py-20 px-5 text-center rounded-2xl cursor-pointer hover:bg-dark ease-in duration-200">
+            <div class="border-2 border-solid border-gray py-20 px-5 text-center rounded-2xl cursor-pointer hover:bg-dark ease-in duration-200 md:col-span-2 md:mx-auto md:max-w-xs lg:col-span-1">
               <div class="bg-secondary inline-block rounded-2xl py-5 px-6 text-4xl">
                 <i class="fa-solid fa-phone"></i>
               </div>
@@ -109,8 +109,8 @@
             </div>
             <div class="text-center md:text-left md:w-1/2 md:ml-20">
               <h4 class="font-bold text-secondary mb-4">Saving Money</h4>
-              <h1 class="title mb-4">Best Financing App To Save Your Money</h1>
-              <p class="leading-relaxed mb-10">Best financing app ever in the world. Easy to use and very user friendly for mobile banking. You can control your card easily and send money some one just one click.</p>
+              <h1 class="title mb-4 px-6 md:px-0">Best Financing App To Save Your Money</h1>
+              <p class="leading-relaxed mb-10 px-6 md:px-0">Best financing app ever in the world. Easy to use and very user friendly for mobile banking. You can control your card easily and send money some one just one click.</p>
             </div>
           </div>
         </div>
@@ -154,42 +154,42 @@
       </section>
       <section id="testimonial">
         <div class="container py-20">
-          <div class="text-center m-auto mb-20 md:w-1/2">
+          <div class="text-center m-auto mb-10 md:mb-20 md:w-1/2">
             <h4 class="font-bold text-secondary mb-4">User Review</h4>
-            <h1 class="title px-10 md:px-0">What Clients Say About Our App After Use It</h1>
+            <h1 class="title-smaller px-10 md:px-0">What Clients Say About Our App After Use It</h1>
           </div>
           <!-- review container -->
           <div class="mt-8">
-            <div class="flex items-center justify-center flex-wrap">
+            <div class="flex items-center justify-center flex-wrap px-5 md:px-0">
               <img src="./img/user1.jpg" alt="user1" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic active-pic" onclick="showReview()" />
               <img src="./img/user2.jpg" alt="user2" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()" />
               <img src="./img/user3.jpg" alt="user3" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()" />
               <img src="./img/user4.jpg" alt="user4" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()" />
               <img src="./img/user5.jpg" alt="user5" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()" />
             </div>
-            <div class="grid place-items-center text-center m-auto md:w-4/5 min-h-[40vh]">
+            <div class="grid place-items-center text-center m-auto md:mt-0 md:w-4/5 min-h-[40vh]">
               <div class="user-text active-text">
-                <p class="text-2xl mb-6">"This wallet app makes tracking expenses effortless, helping me stay on top of my budget every single day!"</p>
+                <p class="text-base px-6 mb-6 md:text-2xl md:px-0">"This wallet app makes tracking expenses effortless, helping me stay on top of my budget every single day!"</p>
                 <h4 class="font-bold text-secondary mb-1">Sasaki Chihaya</h4>
                 <p>IOS Developer</p>
               </div>
               <div class="user-text">
-                <p class="text-2xl mb-6">"Managing my finances has never been easier. This app gives me total control over my spending habits!"</p>
+                <p class="text-base px-6 mb-6 md:text-2xl md:px-0">"Managing my finances has never been easier. This app gives me total control over my spending habits!"</p>
                 <h4 class="font-bold text-secondary mb-1">Vera Duncan</h4>
                 <p>Flutter Developer</p>
               </div>
               <div class="user-text">
-                <p class="text-2xl mb-6">"With real-time insights and smart budgeting, I can plan my expenses and save more efficiently than before!"</p>
+                <p class="text-base px-6 mb-6 md:text-2xl md:px-0">"With real-time insights and smart budgeting, I can plan my expenses and save more efficiently than before!"</p>
                 <h4 class="font-bold text-secondary mb-1">Sitri Pakovic</h4>
                 <p>React Developer</p>
               </div>
               <div class="user-text">
-                <p class="text-2xl mb-6">"The security and ease of use are outstanding! I can send, receive, and manage funds with complete peace of mind!"</p>
+                <p class="text-base px-6 mb-6 md:text-2xl md:px-0">"The security and ease of use are outstanding! I can send, receive, and manage funds with complete peace of mind!"</p>
                 <h4 class="font-bold text-secondary mb-1">Misha Craig</h4>
                 <p>IOS Developer</p>
               </div>
               <div class="user-text">
-                <p class="text-2xl mb-6">"I love how I can track transactions instantly and set financial goals. This app has truly simplified my life!</p>
+                <p class="text-base px-6 mb-6 md:text-2xl md:px-0">"I love how I can track transactions instantly and set financial goals. This app has truly simplified my life!"</p>
                 <h4 class="font-bold text-secondary mb-1">Gray Magnus</h4>
                 <p>Angular Developer</p>
               </div>
@@ -201,14 +201,14 @@
         <div class="container py-20">
           <div class="text-center m-auto mb-20 md:w-1/2">
             <h4 class="font-bold text-secondary mb-4">Pricing</h4>
-            <h1 class="title px-10 md:px-0">Get In Reasonable Price</h1>
+            <h1 class="title-smaller px-10 md:px-0 md:text-2xl lg:text-4xl">Get In Reasonable Price</h1>
             <!-- Rounded Switch -->
-            <div class="mt-5 flex items-center justify-center gap-4">
+            <div class="mt-5 px-6 flex items-center justify-center gap-4 md:px-0">
               <p>Bill Monthly</p>
               <label class="cursor-pointer relative inline-block w-20 h-8 rounded-full">
                 <input type="checkbox" id="toggleBtn" class="peer opacity-0 w-0 h-0" />
                 <span
-                  class="absolute top-0 left-0 right-0 bottom-0 bg-light border-solid border-2 border-gray rounded-full duration-300 before:contents-[''] before:absolute before:w-6 before:h-6 before:bottom-1 before:left-1 before:rounded-full before:bg-white before:duration-300 peer-checked:before:translate-x-12 peer-checked:bg-secondary"
+                  class="absolute top-0 left-0 right-0 bottom-0 bg-light border-solid border-2 border-gray rounded-full duration-300 before:contents-[''] before:absolute before:w-6 before:h-6 before:bottom-1 before:left-0 before:rounded-full before:bg-white before:duration-300 peer-checked:before:translate-x-10 md:peer-checked:before:translate-x-12 peer-checked:bg-secondary"
                 ></span>
               </label>
               <p>Bill Annually</p>
@@ -216,7 +216,7 @@
           </div>
           <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             <!-- Card 1 -->
-            <div class="card relative h-auto w-auto">
+            <div class="card relative h-auto w-auto mx-5 md:mx-0">
               <!-- front side -->
               <div id="card_1_front" class="front px-7 py-11 rounded-2xl border-2 border-solid border-gray h-full w-full">
                 <div class="relative">
@@ -285,7 +285,7 @@
               </div>
             </div>
             <!-- Card 2 -->
-            <div class="card relative h-auto w-auto">
+            <div class="card relative h-auto w-auto mx-5 md:mx-0">
               <!-- front side -->
               <div id="card_2_front" class="front px-7 py-11 rounded-2xl border-2 border-solid border-gray h-full w-full">
                 <div class="relative">
@@ -354,7 +354,7 @@
               </div>
             </div>
             <!-- Card 3 -->
-            <div class="card relative h-auto w-auto">
+            <div class="card relative h-auto w-auto mx-5 md:mx-0">
               <!-- front side -->
               <div id="card_3_front" class="front px-7 py-11 rounded-2xl border-2 border-solid border-gray h-full w-full">
                 <div class="relative">
@@ -428,10 +428,10 @@
       <section id="blog">
         <div class="container py-20">
           <div class="text-center m-auto mb-20 md:w-1/2">
-            <h4 class="font-bold text-secondary mb-4">Innovation And Quality Improvement</h4>
-            <h1 class="title px-10 md:px-0">Latest Updates, Solutions And Company News</h1>
+            <h4 class="font-bold text-secondary mb-4 px-5 md:px-0">Innovation And Quality Improvement</h4>
+            <h1 class="title">Latest Updates, Solutions And Company News</h1>
           </div>
-          <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <div class="grid px-6 gap-5 md:grid-cols-2 md:px-0 lg:grid-cols-3">
             <!-- Card No 1 -->
             <div>
               <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
@@ -490,8 +490,8 @@
       <section id="download-app" class="bg-light">
         <div class="container h-[80vh] grid place-items-center">
           <div class="text-center md:w-2/3 m-auto">
-            <h1 class="title">Download App Now And Save Your Money</h1>
-            <p class="leading-relaxed pt-5">Serving an impressive list of long-term money with experience and expertise in multiple industries.</p>
+            <h1 class="title-smaller mx-5 md:mx-0 md:title">Download App Now And Save Your Money</h1>
+            <p class="leading-relaxed pt-5 px-5 md:px-0">Serving an impressive list of long-term money with experience and expertise in multiple industries.</p>
             <div class="flex flex-col md:flex-row items-center justify-center gap-5 pt-10">
               <a href="#" class="bg-white h-16 w-44 grid place-items-center rounded-lg hover:opacity-70">
                 <img src="./img/ios-store-dark.png" alt="appstoreimg" />
@@ -511,13 +511,15 @@
           </div>
           <form action="">
             <div class="w-full m-auto text-center md:w-2/3">
-              <div class="text-dark grid gap-6 mb-6 md:grid-cols-2">
+              <div class="text-dark grid gap-6 mb-6 px-5 md:px-0 md:grid-cols-2">
                 <input type="text" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-secondary" placeholder="Name" />
                 <input type="email" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-secondary" placeholder="Email" />
                 <input type="number" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-secondary" placeholder="Phone" />
                 <input type="text" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-secondary" placeholder="Company" />
               </div>
-              <textarea rows="4" class="text-dark bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-secondary" placeholder="Message"></textarea>
+              <div class="px-5 md:px-0">
+                <textarea rows="4" class="text-dark bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-secondary" placeholder="Message"></textarea>
+              </div>
               <button class="btn mt-10">Send Message</button>
             </div>
           </form>
@@ -526,7 +528,7 @@
       <section id="footer">
         <div class="bg-dark relative">
           <div class="container py-20">
-            <div class="grid gap-10 md:grid-cols-3 pb-10">
+            <div class="grid gap-10 px-5 pb-10 md:grid-cols-3 md:px-0">
               <div class="space-y-6">
                 <h4 class="font-bold text-lg">About App</h4>
                 <p class="leading-relaxed">This Should Be Used To Tell A Story And Include Any Testimonials You Might Have About Your Product Or Service For Your Clients</p>
@@ -552,7 +554,7 @@
                   </ul>
                 </div>
 
-                <div class="space-y-6">
+                <div class="space-y-6 md:px-5 lg:px-0">
                   <h4 class="font-bold text-lg">Help</h4>
                   <ul class="space-y-3">
                     <li class="underline hover:no-underline hover:text-secondary"><a href="#">About Us</a></li>
@@ -577,7 +579,7 @@
               </div>
             </div>
 
-            <div class="flex justify-center pt-10 border-t border-gray">
+            <div class="flex justify-center pt-10 border-t border-gray text-sm md:text-base">
               <p>2025 &copy; Vinancial. All Rights Reserved.</p>
             </div>
           </div>

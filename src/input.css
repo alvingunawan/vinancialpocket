@@ -14,6 +14,10 @@
   @apply text-3xl md:text-4xl font-bold leading-snug;
 }
 
+.title-smaller {
+  @apply text-2xl md:text-4xl font-bold leading-snug;
+}
+
 .blob1 {
   @apply w-80 h-80 bg-blob absolute top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full;
 }
